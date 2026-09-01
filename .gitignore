@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated files
+outputs/*
+dataset/poses/*
+dataset/masks/*
+
+# Large model files
+*.pth
+*.pt
+*.ckpt
+*.safetensors
